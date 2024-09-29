@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Navbar</title>
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/new logo.jpg" alt="Logo" />
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="URL, IP address, domain or file hash">
+        </div>
+        <div class="nav-icons">
+          <button className="text-gray-400">📤</button>
+          <button className="text-gray-400">💬</button>
+          <button className="text-gray-400">❓</button>
+          <button onClick={toggleDarkMode} className="text-gray-400">
+            ☀️
+          </button>
+        </div>
+    </nav>
+
+<!-- banner part -->
+  <div class="banner">
+    <div class="banner-content">
+      <!-- Logo -->
+      <div class="logo">
+        <img src="images/new logo.jpg" alt="logo" class="logo-img">
+      </div>
+
+      <!-- Title -->
+      <h1 class="banner-title">AV Syncer</h1>
+
+      <!-- Subtitle -->
+      <p class="banner-subtitle">
+        Analyse suspicious files, domains, IPs and URLs to detect malware and
+        other breaches, automatically share them with the security community.
+      </p>
+    </div>
+
+    <!-- Tab Navigation -->
+    <div class="tab-navigation">
+      <button class="tab-btn">Upload Your Files</button>
+    </div>
+
+    <!-- File Upload -->
+    <div class="file-upload">
+      <div class="upload-container">
+        <!-- Replace this icon with an actual image or SVG -->
+        <div class="upload-icon">🗂️</div>
+        <label for="file-upload" class="upload-label">Choose file</label>
+        <input id="file-upload" type="file" class="file-input">
+      </div>
+
+      <p class="disclaimer">
+        By submitting data above, you are agreeing to our 
+        <a href="#" class="link">Terms of Service</a> and 
+        <a href="#" class="link">Privacy Notice</a>, and to the sharing of your Sample submission with the security community. Please do not submit any personal information; we are not responsible for the contents of your submission. 
+        <a href="#" class="link">Learn more</a>.
+      </p>
+    </div>
+  </div>
+
+
+
+
+ 
+</body>
+</html>

@@ -1,0 +1,151 @@
+/* navbar start */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #1d2a39;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    background-color: #485567;
+    padding: 10px 20px;
+}
+
+.logo img {
+    height: 40px;
+}
+
+.search-bar {
+    flex-grow: 1;
+    margin: 0 20px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.nav-icons {
+    display: flex;
+    gap: 15px;
+}
+
+.nav-icon {
+    height: 25px;
+    cursor: pointer;
+}
+
+  /* nav completed */
+
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #202631;
+    color: white;
+  }
+  
+  .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background-color: #485567;
+  }
+  
+  .logo-img {
+    width: 250px;
+    height: 80px;
+  }
+  
+  .banner-title {
+    font-size: 4rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .banner-subtitle {
+    font-size: 1.25rem;
+    max-width: 500px;
+    margin-bottom: 2rem;
+  }
+  
+  .tab-navigation {
+    margin-bottom: 2rem;
+  }
+  
+  .tab-btn {
+    background-color: transparent;
+    border: none;
+    color: #1e90ff;
+    border-bottom: 2px solid #1e90ff;
+    padding-bottom: 0.5rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  .tab-btn:hover {
+    color: #4682b4;
+    border-color: #4682b4;
+  }
+  
+  .file-upload {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .upload-container {
+    padding: 2rem;
+    border-radius: 8px;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .upload-icon {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .upload-label {
+    background-color: #1e90ff;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .upload-label:hover {
+    background-color: #a52a2a;
+  }
+  
+  .file-input {
+    display: none;
+  }
+  
+  .disclaimer {
+    font-size: 0.75rem;
+    color: #b0bec5;
+    max-width: 500px;
+  }
+  
+  .link {
+    color: #a52a2a;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    text-decoration: underline;
+  }
+  
