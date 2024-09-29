@@ -1,0 +1,1 @@
+This is the fromtend part of my SIH2K24 project whose PsID is SIH1685 . in this we had made an antivirus scanning pipeline which scan files from various antivirus in a Offline mode and simantaneously and give a better output.
